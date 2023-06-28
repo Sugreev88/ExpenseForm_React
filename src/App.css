@@ -1,38 +1,121 @@
-.App {
+.container {
+  /* border: 2px solid red; */
+  width: 70%;
+  /* height: 100rem; */
+  margin: 5% auto;
+  background-color: purple;
+  border-radius: 15px;
+  padding-top: 1%;
+}
+.container label {
+  font-size: 30px;
+}
+.container input {
+  color: blue;
+}
+.add-expense {
+  /* border: 2px solid blue; */
+  width: auto;
+  /* height: 60%; */
+  margin: 10px;
+}
+.expense-field {
+  /* border: 2px solid red; */
+  display: inline-block;
+  width: 45%;
+  height: 5rem;
+  margin: 5px 20px 5px 12px;
+  background-color: lightseagreen;
+  border-radius: 15px;
+}
+
+#date-field {
+  display: block;
+  width: 90%;
+  margin-left: 2rem;
+}
+
+#date-field input {
+  margin-left: 13rem;
+  padding-left: 22%;
+  padding-right: 15%;
+}
+
+.expense-field label {
+  display: block;
   text-align: center;
+  margin-bottom: 1rem;
+  /* background-color: aqua; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .expense-field input {
+  margin-left: 72px;
+} */
+
+#title-field input {
+  margin-left: 25%;
+  /* display: inline; */
+}
+#amount-field input {
+  margin-left: 25%;
+  padding-left: 29%;
+  /* display: inline; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container button {
+  margin: 10px 50%;
+  /* display: inline; */
+  text-align: center;
+  transform: translatex(-50%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heading {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: blueviolet;
 }
 
-.App-link {
-  color: #61dafb;
+/* NOT USING */
+/* .add-expense-item {
+  border: 2px solid red;
+  width: 80%;
+  height: 50rem;
+  margin: 10px auto;
+} */
+
+.expense-item {
+  /* border: 2px solid grey; */
+  width: 90%;
+  /* height: 6rem; */
+  margin: 10px auto;
+  background-color: aquamarine;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info {
+  /* border: 2px solid red; */
+  background-color: #e9e2d8;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 30px;
+}
+
+#amount-info {
+  float: right;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.expense-item p {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  /* margin-bottom: 10px; */
+}
+
+.container button {
+  color: brown;
+  background-color: burlywood;
 }
